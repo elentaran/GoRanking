@@ -1,11 +1,20 @@
 TODO
 
-- liste des différents outils/languages nécessaires
+
+
+
 - mise en forme
+    creation banniere
+    dimensions
+    fond pour chacun des cadres
+    titre à la bonne taille
+
+- insertion de php
+    organisation du php en sous répertoire
+    test avec des pages bateau
+
 - création d'une fausse base de donnée
 - création de l'algorithme de classement
-
-
 
 
 
@@ -29,15 +38,10 @@ forum
 lecteur de parties
 
 
-LANGUAGE
-html
-css
-php
-mysql
-javascript?
 
 
-BDD: liste tables:
+BDD 
+
 table news
     date
     auteur
