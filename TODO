@@ -35,3 +35,12 @@ css
 php
 mysql
 javascript?
+
+
+BDD: liste tables:
+table news
+    date
+    auteur
+    news
+
+
