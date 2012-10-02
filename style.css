@@ -1,27 +1,38 @@
+
+body
+{
+    /* background-image: url('bedge_grunge.png'); */
+    background-image: url('cardboard_flat.png');
+
+}
+
 #main_page
 {
-    width: 900px;
-    border: 1px solid red;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#top_page
+{
+    border: 1px solid black;
 }
 
 
 header
 {
-    height: 100px;
-/*    width: 900px;*/
-    background-color: blue;
-    border: 1px solid black;
+    height: 150px;
+    background-image:url('banniere.jpg');
+    border-bottom: 1px solid black;
 }
 
 nav
 {
     height: 30px;
-/*    width: 900px;*/
-    background-color: yellow;
+    width: 100%;
+    /* background-color: #f6e2b6; */
+    background-image: url('retina_wood.png');
     display: inline-block;
-    border: 1px solid black;
 }
 
 nav ul
@@ -33,35 +44,57 @@ nav ul
 nav li
 {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
-footer
+nav a
 {
-    height: 30px;
-/*    width: 900px;*/
-    background-color: yellow;
-    text-align: right;
-    padding-top: 7px;
-    padding-right: 10px;
-    border: 1px solid black;
-    clear:both;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    /*color: #760001;*/
+    border-bottom: 2px solid black;
+}
+
+#middle_page
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#middle_page table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#middle_page table td
+{
+    padding: 0px;
+    vertical-align: top;
 }
 
 article
 {
     border: 1px solid black;
-    /*width: 500px;*/
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #eeeeee;
 }
 
 
-aside
+#middle_page #right_side
 {
     width: 200px;
-    border: 1px solid black;
-    float: right;
-    background-color: red;
+}
 
+#middle_page aside
+{
+    border: 1px solid black;
+    background-image: url('retina_wood.png');
 }
 
 #right_widget
@@ -70,5 +103,16 @@ aside
     padding-left:10px;
     padding-right:10px;
     margin: 10px;
-    background-color: white;
+    background-color: #eeeeee;
+}
+
+footer
+{
+    height: 30px;
+    background-image: url('retina_wood.png');
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 10px;
+    border:1px solid black;
+    clear:both;
 }

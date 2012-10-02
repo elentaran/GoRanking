@@ -3,39 +3,33 @@ TODO
 
 
 
-- mise en forme
-    creation banniere
-    dimensions
-    fond pour chacun des cadres
-    titre à la bonne taille
+- faire la page news
+    creation de la base
+    coder page php
+    ajouter une news
 
-- insertion de php
-    organisation du php en sous répertoire
-    test avec des pages bateau
+- faire la page links
+    juste ecrire le html
 
-- création d'une fausse base de donnée
-- création de l'algorithme de classement
-
+- faire la page Ranking (fake table)
+    création d'une fausse base de donnée
+    création de l'algorithme de classement
 
 
 
+- faire widget login
+
+- faire widget top 10
 
 
 
 
-ORGANISATION SITE
 
-ranking
+- faire widget calendar
 
-resultat des tournois
+- faire page tournaments
 
-date des prochains tournois
-
-news
-
-forum
-
-lecteur de parties
+- faire page forum
 
 
 
