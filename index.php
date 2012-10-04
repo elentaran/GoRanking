@@ -32,6 +32,8 @@
                                 <?php include("pages/top10.php"); ?>
 
                                 <?php include("pages/calendar.php"); ?>
+
+                                <?php include("pages/latest_res.php"); ?>
                             </aside>
                         </td>
                     </tr>
